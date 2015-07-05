@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F4D3B22A1B495B1100D4A8E5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D3B2291B495B1100D4A8E5 /* AppDelegate.m */; };
+		F4D3B22C1B495B1100D4A8E5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D3B22B1B495B1100D4A8E5 /* main.m */; };
+		F4D3B22E1B495B1100D4A8E5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4D3B22D1B495B1100D4A8E5 /* Images.xcassets */; };
+		F4D3B2311B495B1100D4A8E5 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4D3B22F1B495B1100D4A8E5 /* MainMenu.xib */; };
+		F4D3B23D1B495B1100D4A8E5 /* ScreenSaverThumbnailFactoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D3B23C1B495B1100D4A8E5 /* ScreenSaverThumbnailFactoryTests.m */; };
+		F4D3B2471B495B2500D4A8E5 /* ScreenSaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4D3B2461B495B2500D4A8E5 /* ScreenSaver.framework */; };
+		F4D3B24B1B495B8600D4A8E5 /* SSTFWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D3B2491B495B8600D4A8E5 /* SSTFWindowController.m */; };
+		F4D3B24C1B495B8600D4A8E5 /* SSTFWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4D3B24A1B495B8600D4A8E5 /* SSTFWindowController.xib */; };
+		F4D3B24F1B49636A00D4A8E5 /* SSTFThumbnail2xView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D3B24E1B49636A00D4A8E5 /* SSTFThumbnail2xView.m */; };
+		F4D3B2521B49693900D4A8E5 /* SSTFThumbnailView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D3B2511B49693900D4A8E5 /* SSTFThumbnailView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F4D3B2371B495B1100D4A8E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4D3B21B1B495B1100D4A8E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4D3B2221B495B1100D4A8E5;
+			remoteInfo = ScreenSaverThumbnailFactory;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F4D3B2231B495B1100D4A8E5 /* ScreenSaverThumbnailFactory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScreenSaverThumbnailFactory.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4D3B2271B495B1100D4A8E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4D3B2281B495B1100D4A8E5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F4D3B2291B495B1100D4A8E5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F4D3B22B1B495B1100D4A8E5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F4D3B22D1B495B1100D4A8E5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F4D3B2301B495B1100D4A8E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		F4D3B2361B495B1100D4A8E5 /* ScreenSaverThumbnailFactoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScreenSaverThumbnailFactoryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4D3B23B1B495B1100D4A8E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4D3B23C1B495B1100D4A8E5 /* ScreenSaverThumbnailFactoryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScreenSaverThumbnailFactoryTests.m; sourceTree = "<group>"; };
+		F4D3B2461B495B2500D4A8E5 /* ScreenSaver.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScreenSaver.framework; path = System/Library/Frameworks/ScreenSaver.framework; sourceTree = SDKROOT; };
+		F4D3B2481B495B8600D4A8E5 /* SSTFWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSTFWindowController.h; sourceTree = "<group>"; };
+		F4D3B2491B495B8600D4A8E5 /* SSTFWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSTFWindowController.m; sourceTree = "<group>"; };
+		F4D3B24A1B495B8600D4A8E5 /* SSTFWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SSTFWindowController.xib; sourceTree = "<group>"; };
+		F4D3B24D1B49636A00D4A8E5 /* SSTFThumbnail2xView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSTFThumbnail2xView.h; sourceTree = "<group>"; };
+		F4D3B24E1B49636A00D4A8E5 /* SSTFThumbnail2xView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSTFThumbnail2xView.m; sourceTree = "<group>"; };
+		F4D3B2501B49693900D4A8E5 /* SSTFThumbnailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSTFThumbnailView.h; sourceTree = "<group>"; };
+		F4D3B2511B49693900D4A8E5 /* SSTFThumbnailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSTFThumbnailView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4D3B2201B495B1100D4A8E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4D3B2471B495B2500D4A8E5 /* ScreenSaver.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4D3B2331B495B1100D4A8E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F45A24501B49E33C0066539B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F4D3B2461B495B2500D4A8E5 /* ScreenSaver.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F4D3B21A1B495B1100D4A8E5 = {
+			isa = PBXGroup;
+			children = (
+				F4D3B2251B495B1100D4A8E5 /* ScreenSaverThumbnailFactory */,
+				F4D3B2391B495B1100D4A8E5 /* ScreenSaverThumbnailFactoryTests */,
+				F4D3B2241B495B1100D4A8E5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4D3B2241B495B1100D4A8E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4D3B2231B495B1100D4A8E5 /* ScreenSaverThumbnailFactory.app */,
+				F4D3B2361B495B1100D4A8E5 /* ScreenSaverThumbnailFactoryTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4D3B2251B495B1100D4A8E5 /* ScreenSaverThumbnailFactory */ = {
+			isa = PBXGroup;
+			children = (
+				F4D3B2281B495B1100D4A8E5 /* AppDelegate.h */,
+				F4D3B2291B495B1100D4A8E5 /* AppDelegate.m */,
+				F4D3B2481B495B8600D4A8E5 /* SSTFWindowController.h */,
+				F4D3B2491B495B8600D4A8E5 /* SSTFWindowController.m */,
+				F4D3B24D1B49636A00D4A8E5 /* SSTFThumbnail2xView.h */,
+				F4D3B24E1B49636A00D4A8E5 /* SSTFThumbnail2xView.m */,
+				F4D3B2501B49693900D4A8E5 /* SSTFThumbnailView.h */,
+				F4D3B2511B49693900D4A8E5 /* SSTFThumbnailView.m */,
+				F4D3B22B1B495B1100D4A8E5 /* main.m */,
+				F4D3B2261B495B1100D4A8E5 /* Supporting Files */,
+				F45A24501B49E33C0066539B /* Frameworks */,
+			);
+			path = ScreenSaverThumbnailFactory;
+			sourceTree = "<group>";
+		};
+		F4D3B2261B495B1100D4A8E5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F4D3B2271B495B1100D4A8E5 /* Info.plist */,
+				F4D3B22D1B495B1100D4A8E5 /* Images.xcassets */,
+				F4D3B22F1B495B1100D4A8E5 /* MainMenu.xib */,
+				F4D3B24A1B495B8600D4A8E5 /* SSTFWindowController.xib */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F4D3B2391B495B1100D4A8E5 /* ScreenSaverThumbnailFactoryTests */ = {
+			isa = PBXGroup;
+			children = (
+				F4D3B23C1B495B1100D4A8E5 /* ScreenSaverThumbnailFactoryTests.m */,
+				F4D3B23A1B495B1100D4A8E5 /* Supporting Files */,
+			);
+			path = ScreenSaverThumbnailFactoryTests;
+			sourceTree = "<group>";
+		};
+		F4D3B23A1B495B1100D4A8E5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F4D3B23B1B495B1100D4A8E5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4D3B2221B495B1100D4A8E5 /* ScreenSaverThumbnailFactory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4D3B2401B495B1100D4A8E5 /* Build configuration list for PBXNativeTarget "ScreenSaverThumbnailFactory" */;
+			buildPhases = (
+				F4D3B21F1B495B1100D4A8E5 /* Sources */,
+				F4D3B2201B495B1100D4A8E5 /* Frameworks */,
+				F4D3B2211B495B1100D4A8E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScreenSaverThumbnailFactory;
+			productName = ScreenSaverThumbnailFactory;
+			productReference = F4D3B2231B495B1100D4A8E5 /* ScreenSaverThumbnailFactory.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F4D3B2351B495B1100D4A8E5 /* ScreenSaverThumbnailFactoryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4D3B2431B495B1100D4A8E5 /* Build configuration list for PBXNativeTarget "ScreenSaverThumbnailFactoryTests" */;
+			buildPhases = (
+				F4D3B2321B495B1100D4A8E5 /* Sources */,
+				F4D3B2331B495B1100D4A8E5 /* Frameworks */,
+				F4D3B2341B495B1100D4A8E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4D3B2381B495B1100D4A8E5 /* PBXTargetDependency */,
+			);
+			name = ScreenSaverThumbnailFactoryTests;
+			productName = ScreenSaverThumbnailFactoryTests;
+			productReference = F4D3B2361B495B1100D4A8E5 /* ScreenSaverThumbnailFactoryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4D3B21B1B495B1100D4A8E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = stephane;
+				TargetAttributes = {
+					F4D3B2221B495B1100D4A8E5 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					F4D3B2351B495B1100D4A8E5 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = F4D3B2221B495B1100D4A8E5;
+					};
+				};
+			};
+			buildConfigurationList = F4D3B21E1B495B1100D4A8E5 /* Build configuration list for PBXProject "ScreenSaverThumbnailFactory" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F4D3B21A1B495B1100D4A8E5;
+			productRefGroup = F4D3B2241B495B1100D4A8E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4D3B2221B495B1100D4A8E5 /* ScreenSaverThumbnailFactory */,
+				F4D3B2351B495B1100D4A8E5 /* ScreenSaverThumbnailFactoryTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4D3B2211B495B1100D4A8E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4D3B22E1B495B1100D4A8E5 /* Images.xcassets in Resources */,
+				F4D3B24C1B495B8600D4A8E5 /* SSTFWindowController.xib in Resources */,
+				F4D3B2311B495B1100D4A8E5 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4D3B2341B495B1100D4A8E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4D3B21F1B495B1100D4A8E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4D3B24B1B495B8600D4A8E5 /* SSTFWindowController.m in Sources */,
+				F4D3B24F1B49636A00D4A8E5 /* SSTFThumbnail2xView.m in Sources */,
+				F4D3B2521B49693900D4A8E5 /* SSTFThumbnailView.m in Sources */,
+				F4D3B22C1B495B1100D4A8E5 /* main.m in Sources */,
+				F4D3B22A1B495B1100D4A8E5 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4D3B2321B495B1100D4A8E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4D3B23D1B495B1100D4A8E5 /* ScreenSaverThumbnailFactoryTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F4D3B2381B495B1100D4A8E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4D3B2221B495B1100D4A8E5 /* ScreenSaverThumbnailFactory */;
+			targetProxy = F4D3B2371B495B1100D4A8E5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F4D3B22F1B495B1100D4A8E5 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4D3B2301B495B1100D4A8E5 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F4D3B23E1B495B1100D4A8E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F4D3B23F1B495B1100D4A8E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F4D3B2411B495B1100D4A8E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ScreenSaverThumbnailFactory/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F4D3B2421B495B1100D4A8E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ScreenSaverThumbnailFactory/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F4D3B2441B495B1100D4A8E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ScreenSaverThumbnailFactoryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScreenSaverThumbnailFactory.app/Contents/MacOS/ScreenSaverThumbnailFactory";
+			};
+			name = Debug;
+		};
+		F4D3B2451B495B1100D4A8E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ScreenSaverThumbnailFactoryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScreenSaverThumbnailFactory.app/Contents/MacOS/ScreenSaverThumbnailFactory";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4D3B21E1B495B1100D4A8E5 /* Build configuration list for PBXProject "ScreenSaverThumbnailFactory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4D3B23E1B495B1100D4A8E5 /* Debug */,
+				F4D3B23F1B495B1100D4A8E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4D3B2401B495B1100D4A8E5 /* Build configuration list for PBXNativeTarget "ScreenSaverThumbnailFactory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4D3B2411B495B1100D4A8E5 /* Debug */,
+				F4D3B2421B495B1100D4A8E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4D3B2431B495B1100D4A8E5 /* Build configuration list for PBXNativeTarget "ScreenSaverThumbnailFactoryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4D3B2441B495B1100D4A8E5 /* Debug */,
+				F4D3B2451B495B1100D4A8E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4D3B21B1B495B1100D4A8E5 /* Project object */;
+}
